@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: orange;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+    color: white;
+}
+
+button {
+    color: white;
+    background: transparent;
+    font-size: 20px; width: 25%; height: 65px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+}
+
